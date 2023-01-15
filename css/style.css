@@ -245,3 +245,45 @@ a{
 .banner img{ 
     border-radius: 8px;
 }
+
+.magaza{
+    width: 95%;
+    height: 100%;
+    margin: 27px;
+}
+/* ------------------------sunmanshopkart--------------------------- */
+.kart{
+    background-color: #8bc4d4;
+    width: 25%;
+    height: 65%;
+    border-radius: 8px;
+    box-shadow: #000000 0px 0px 3px;
+
+}
+.kart:hover{
+    animation: Kart 0.5s both;
+}
+@keyframes Kart{
+    0%{
+        transform: translatey(0px);
+    }
+    100%{
+        transform: translatey(-1px);
+        box-shadow: #000 0px 0px 8px;
+    }
+}
+
+.karturunpng{
+    background-color: #8bc4d4;
+    width: 100%;
+    height: 60%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.kartaciklama{
+    background-color: #437481;
+    border-radius: 5px 5px 8px 8px;
+    width: 100%;
+    height: 40%;
+}
+/* ----------------------------------------------------------------- */
