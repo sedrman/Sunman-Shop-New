@@ -11,23 +11,23 @@ body{
 
 }
 /* width */
-::-webkit-scrollbar {
+   .anabolum::-webkit-scrollbar {
     width: 10px;
   }
   
   /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+  .anabolum::-webkit-scrollbar-track {
+    background: #c9c9c9; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #181818; 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #001416; 
   }
 a{
     text-decoration: none;
@@ -58,9 +58,10 @@ a{
 .anabolum{
     background: linear-gradient(45deg, #ff0000, #570000);
     width: 100%;
-    height: 92.4%;
+    height: calc(100vh - 56px);
     margin: 0 auto;
     display: flex;
+    overflow-y: scroll;
 }
 
 .logo{
@@ -88,7 +89,7 @@ a{
     height: 120%;
     float: right;
     margin: 0 auto;
-    background-color: #EEEEED;
+    background-color: #d6d6d0;
 }
 .kategori{
     padding-top: 10px;
@@ -96,13 +97,13 @@ a{
     height: 120%;
     float: right;
     margin: 0 auto;
-    background-color: #EEEEED;
+    background-color: #d6d6d0;
 }
 
 .kategorimenu1{
     border-radius: 8px;
     margin: 10px auto;
-    background-color: #B8B8B8;
+    background-color: #d6d6d6;
     width: 90%;
     height: 60%;
     border: #000 0.5px solid; 
@@ -136,7 +137,7 @@ a{
 }
 
 .menuici{
-    background-color: #e7e7e7;
+    background-color: #ecebeb;
     margin: 3px;
     padding: 3px;
     border-radius: 3px;
@@ -192,12 +193,40 @@ a{
     }
 }
 
+.menuici:hover{
+    animation: menuici 0s both;
+    background-color: #cecece
+}
+@keyframes menuici{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.01);
+    }
+}
+
 .banner{
-    margin: 0px auto;
+    margin: 9px auto;
     border-radius: 8px;
     width:  95%;
     height: 35%;
     margin-bottom: 35px;
+    box-shadow: #000000 0px 0px 8px;
+    background-color: aqua;
+}
+
+.banner:hover{
+    animation: banner 0.5s both;
+
+}
+@keyframes banner{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.02);
+    }
 }
 
 .banner img{ 
