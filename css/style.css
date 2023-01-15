@@ -56,7 +56,7 @@ a{
 }
 
 .anabolum{
-    background: linear-gradient(45deg, #ff0000, #570000);
+    background: linear-gradient(45deg, #d6d6d0, #d6d6d0);
     width: 100%;
     height: calc(100vh - 56px);
     margin: 0 auto;
@@ -142,6 +142,19 @@ a{
     padding: 3px;
     border-radius: 3px;
     text-align: center;
+}
+
+.sepetimbtn{
+    display: flex;
+    gap: 5px;
+}
+.girisbtn{
+    display: flex;
+    gap: 5px;
+}
+.kayitbtn{
+    display: flex;
+    gap: 5px;
 }
 
 .sepetimbtn:hover{
