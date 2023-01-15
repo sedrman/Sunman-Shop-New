@@ -1,0 +1,195 @@
+body{
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+a{
+    text-decoration: none;
+    color: #000;
+}
+.kapsayici{
+    background: linear-gradient(45deg, #e7e7e7, #f3f3f3);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.baslik{
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    border-bottom: #B8B8B8 2px solid;
+    box-shadow: #000000 0px 1px 10px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #F0F0F0;
+    
+
+}
+
+.anabolum{
+    background: linear-gradient(45deg, #ff0000, #570000);
+    width: 100%;
+    height: 92.4%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo{
+    margin: 2px 0px 0px 60px;
+}
+.yonlendirici{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 25px;
+}
+.bildirim{
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    color: #ffffff;
+}
+.anasayfa{
+    padding-top: 10px;
+    width: 80%;
+    height: 120%;
+    float: right;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.kategori{
+    padding-top: 10px;
+    width: 20%;
+    height: 120%;
+    float: right;
+    margin: 0 auto;
+    background-color: brown;
+}
+
+.kategorimenu1{
+    border-radius: 8px;
+    margin: 10px auto;
+    background-color: #B8B8B8;
+    width: 90%;
+    height: 60%;
+    border: #000 0.5px solid; 
+}
+.kategoribaslik{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px auto;
+}
+
+.kategorifooter{
+
+    margin-top: 160px;
+    background-color: aqua;
+    border-radius: 8px; 
+
+}
+
+.kategorimenu2{
+    border-top: #000 0.5px solid;
+    width: 100%;
+    height:85%;
+    overflow-y: scroll;
+}
+
+.kategorimenu2::-webkit-scrollbar{
+    width: 0px;
+}
+
+.menuici{
+    background-color: #e7e7e7;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.sepetimbtn:hover{
+    animation: sepetimbtn 0.5s both;
+}
+@keyframes sepetimbtn{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+}
+.girisbtn:hover{
+    animation: girisbtn 0.5s both;
+}
+@keyframes girisbtn{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+}
+.kayitbtn:hover{
+    animation: kayitbtn 0.5s both;
+}
+@keyframes kayitbtn{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+}
+
+
+
+.logo:hover{
+    animation: logo 3s infinite;
+}
+@keyframes logo{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
