@@ -88,7 +88,7 @@ a{
     height: 120%;
     float: right;
     margin: 0 auto;
-    background-color: aqua;
+    background-color: #EEEEED;
 }
 .kategori{
     padding-top: 10px;
@@ -96,7 +96,7 @@ a{
     height: 120%;
     float: right;
     margin: 0 auto;
-    background-color: brown;
+    background-color: #EEEEED;
 }
 
 .kategorimenu1{
@@ -120,6 +120,7 @@ a{
     margin-top: 160px;
     background-color: aqua;
     border-radius: 8px; 
+    padding: 5px;
 
 }
 
@@ -176,8 +177,6 @@ a{
     }
 }
 
-
-
 .logo:hover{
     animation: logo 3s infinite;
 }
@@ -193,3 +192,14 @@ a{
     }
 }
 
+.banner{
+    margin: 0px auto;
+    border-radius: 8px;
+    width:  95%;
+    height: 35%;
+    margin-bottom: 35px;
+}
+
+.banner img{ 
+    border-radius: 8px;
+}
